@@ -121,7 +121,6 @@ if __name__ == "__main__":
     # Si la lista de garajes está vacía, agregamos los garajes por primera vez
     if not app.garages:
         app.agregar_garage("Departamento Eclipse Towers", 10)
-        app.agregar_garage("Taller de Garaje (Agency)", 20)
 
     # Registro de vehículos
     app.registrar_coche("Elegy RH8", "Departamento Eclipse Towers")
